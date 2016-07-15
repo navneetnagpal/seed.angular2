@@ -1,0 +1,422 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'i' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose readDependencies loading dependencies from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/package.json
+5 warn package.json seed.angular@1.0.0 No repository field.
+6 warn package.json seed.angular@1.0.0 No license field.
+7 verbose install where, deps [ '/Users/kuman022/Documents/Developer/Projects.Git/seed.angular2',
+7 verbose install   [ '@angular/common',
+7 verbose install     '@angular/compiler',
+7 verbose install     '@angular/core',
+7 verbose install     '@angular/http',
+7 verbose install     '@angular/platform-browser',
+7 verbose install     '@angular/platform-browser-dynamic',
+7 verbose install     '@angular/router',
+7 verbose install     '@angular/router-deprecated',
+7 verbose install     'core-js',
+7 verbose install     'rxjs',
+7 verbose install     'ts-helpers',
+7 verbose install     'zone.js',
+7 verbose install     'bootstrap',
+7 verbose install     'bootstrap-sass',
+7 verbose install     'hbs',
+7 verbose install     'underscore',
+7 verbose install     'concurrently',
+7 verbose install     'factor-bundle',
+7 verbose install     'tsify',
+7 verbose install     'tslint',
+7 verbose install     'typings',
+7 verbose install     'app-root-path',
+7 verbose install     'autoprefixer',
+7 verbose install     'body-parser',
+7 verbose install     'browser-sync',
+7 verbose install     'browserify',
+7 verbose install     'browserify-istanbul',
+7 verbose install     'browserify-ng-html2js',
+7 verbose install     'browserify-shim',
+7 verbose install     'cookie-parser',
+7 verbose install     'del',
+7 verbose install     'eslint',
+7 verbose install     'eslint-plugin-backbone',
+7 verbose install     'express',
+7 verbose install     'gulp',
+7 verbose install     'gulp-connect',
+7 verbose install     'gulp-debug',
+7 verbose install     'gulp-eslint',
+7 verbose install     'gulp-hub',
+7 verbose install     'gulp-inject',
+7 verbose install     'gulp-plumber',
+7 verbose install     'gulp-sass',
+7 verbose install     'gulp-sourcemaps',
+7 verbose install     'gulp-util',
+7 verbose install     'istanbul',
+7 verbose install     'karma',
+7 verbose install     'karma-browserify',
+7 verbose install     'karma-coverage',
+7 verbose install     'karma-jasmine',
+7 verbose install     'karma-mocha-reporter',
+7 verbose install     'karma-phantomjs-launcher',
+7 verbose install     'merge-stream',
+7 verbose install     'mkdirp',
+7 verbose install     'morgan',
+7 verbose install     'phantomjs-prebuilt',
+7 verbose install     'run-sequence',
+7 verbose install     'serve-favicon',
+7 verbose install     'superstatic',
+7 verbose install     'vinyl-buffer',
+7 verbose install     'vinyl-source-stream',
+7 verbose install     'vinyl-transform',
+7 verbose install     'watchify' ] ]
+8 verbose install where, peers [ '/Users/kuman022/Documents/Developer/Projects.Git/seed.angular2',
+8 verbose install   [] ]
+9 verbose installManyTop reading for lifecycle /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/package.json
+10 info preinstall seed.angular@1.0.0
+11 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/app-root-path/package.json
+12 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/autoprefixer/package.json
+13 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/body-parser/package.json
+14 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/bootstrap/package.json
+15 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/bootstrap-sass/package.json
+16 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/browser-sync/package.json
+17 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/browserify/package.json
+18 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/browserify-istanbul/package.json
+19 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/browserify-ng-html2js/package.json
+20 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/browserify-shim/package.json
+21 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/concurrently/package.json
+22 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/cookie-parser/package.json
+23 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/core-js/package.json
+24 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/del/package.json
+25 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/eslint/package.json
+26 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/eslint-plugin-backbone/package.json
+27 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/express/package.json
+28 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/factor-bundle/package.json
+29 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp/package.json
+30 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-connect/package.json
+31 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-debug/package.json
+32 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-eslint/package.json
+33 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-hub/package.json
+34 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-inject/package.json
+35 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-plumber/package.json
+36 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-sass/package.json
+37 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-sourcemaps/package.json
+38 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-util/package.json
+39 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/hbs/package.json
+40 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/istanbul/package.json
+41 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/jasmine-core/package.json
+42 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/karma/package.json
+43 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/karma-browserify/package.json
+44 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/karma-coverage/package.json
+45 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/karma-jasmine/package.json
+46 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/karma-mocha-reporter/package.json
+47 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/karma-phantomjs-launcher/package.json
+48 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/merge-stream/package.json
+49 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/mkdirp/package.json
+50 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/morgan/package.json
+51 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/phantomjs-prebuilt/package.json
+52 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/run-sequence/package.json
+53 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/rxjs/package.json
+54 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/serve-favicon/package.json
+55 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/superstatic/package.json
+56 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/ts-helpers/package.json
+57 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/tsify/package.json
+58 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/tslint/package.json
+59 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/typescript/package.json
+60 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/typings/package.json
+61 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/underscore/package.json
+62 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/vinyl-buffer/package.json
+63 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/vinyl-source-stream/package.json
+64 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/vinyl-transform/package.json
+65 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/watchify/package.json
+66 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/zone.js/package.json
+67 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/common/package.json
+68 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/compiler/package.json
+69 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/core/package.json
+70 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/http/package.json
+71 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/platform-browser/package.json
+72 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/platform-browser-dynamic/package.json
+73 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/router/package.json
+74 verbose installManyTop reading scoped package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/router-deprecated/package.json
+75 info package.json gulp-inject@3.0.0 No license field.
+76 info package.json gulp-hub@0.7.1 No license field.
+77 info package.json @angular/common@2.0.0-rc.1 No description
+78 info package.json @angular/common@2.0.0-rc.1 No repository field.
+79 info package.json @angular/compiler@2.0.0-rc.1 No description
+80 info package.json @angular/compiler@2.0.0-rc.1 No repository field.
+81 info package.json @angular/core@2.0.0-rc.1 No description
+82 info package.json @angular/core@2.0.0-rc.1 No repository field.
+83 info package.json @angular/platform-browser@2.0.0-rc.1 No description
+84 info package.json @angular/platform-browser@2.0.0-rc.1 No repository field.
+85 info package.json @angular/http@2.0.0-rc.1 No description
+86 info package.json @angular/http@2.0.0-rc.1 No repository field.
+87 info package.json @angular/platform-browser-dynamic@2.0.0-rc.1 No description
+88 info package.json @angular/platform-browser-dynamic@2.0.0-rc.1 No repository field.
+89 info package.json @angular/router@2.0.0-rc.1 No description
+90 info package.json @angular/router@2.0.0-rc.1 No repository field.
+91 info package.json @angular/router-deprecated@2.0.0-rc.1 No description
+92 info package.json @angular/router-deprecated@2.0.0-rc.1 No repository field.
+93 verbose readDependencies loading dependencies from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/package.json
+94 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/app-root-path/package.json
+95 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/autoprefixer/package.json
+96 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/body-parser/package.json
+97 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/bootstrap/package.json
+98 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/bootstrap-sass/package.json
+99 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/browser-sync/package.json
+100 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/browserify/package.json
+101 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/browserify-istanbul/package.json
+102 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/browserify-ng-html2js/package.json
+103 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/browserify-shim/package.json
+104 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/concurrently/package.json
+105 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/cookie-parser/package.json
+106 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/core-js/package.json
+107 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/del/package.json
+108 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/eslint/package.json
+109 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/eslint-plugin-backbone/package.json
+110 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/express/package.json
+111 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/factor-bundle/package.json
+112 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp/package.json
+113 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-connect/package.json
+114 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-debug/package.json
+115 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-eslint/package.json
+116 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-hub/package.json
+117 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-inject/package.json
+118 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-plumber/package.json
+119 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-sass/package.json
+120 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-sourcemaps/package.json
+121 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/gulp-util/package.json
+122 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/hbs/package.json
+123 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/istanbul/package.json
+124 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/jasmine-core/package.json
+125 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/karma/package.json
+126 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/karma-browserify/package.json
+127 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/karma-coverage/package.json
+128 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/karma-jasmine/package.json
+129 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/karma-mocha-reporter/package.json
+130 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/karma-phantomjs-launcher/package.json
+131 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/merge-stream/package.json
+132 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/mkdirp/package.json
+133 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/morgan/package.json
+134 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/phantomjs-prebuilt/package.json
+135 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/run-sequence/package.json
+136 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/rxjs/package.json
+137 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/serve-favicon/package.json
+138 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/superstatic/package.json
+139 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/ts-helpers/package.json
+140 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/tsify/package.json
+141 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/tslint/package.json
+142 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/typescript/package.json
+143 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/typings/package.json
+144 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/underscore/package.json
+145 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/vinyl-buffer/package.json
+146 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/vinyl-source-stream/package.json
+147 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/vinyl-transform/package.json
+148 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/watchify/package.json
+149 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/zone.js/package.json
+150 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/browser-sync/package.json
+151 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/browserify/package.json
+152 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/concurrent/package.json
+153 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/concurrently/package.json
+154 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/eslint/package.json
+155 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/factor-bundle/package.json
+156 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/gulp/package.json
+157 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/istanbul/package.json
+158 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/karma/package.json
+159 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/mkdirp/package.json
+160 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/phantomjs/package.json
+161 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/superstatic/package.json
+162 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/tsc/package.json
+163 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/tslint/package.json
+164 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/tsserver/package.json
+165 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/typings/package.json
+166 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/watchify/package.json
+167 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/common/package.json
+168 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/compiler/package.json
+169 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/core/package.json
+170 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/http/package.json
+171 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/platform-browser/package.json
+172 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/platform-browser-dynamic/package.json
+173 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/router/package.json
+174 verbose targetResolver reading package data from /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/@angular/router-deprecated/package.json
+175 verbose already installed skipping core-js@2.2.2 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+176 verbose already installed skipping rxjs@5.0.0-beta.8 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+177 verbose already installed skipping ts-helpers@1.1.1 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+178 verbose already installed skipping zone.js@0.6.12 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+179 verbose already installed skipping bootstrap@^3.3.6 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+180 verbose already installed skipping bootstrap-sass@^3.3.6 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+181 verbose already installed skipping hbs@^4.0.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+182 verbose already installed skipping underscore@^1.8.3 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+183 verbose already installed skipping concurrently@^2.1.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+184 verbose already installed skipping factor-bundle@^2.5.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+185 verbose already installed skipping tsify@^0.16.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+186 verbose already installed skipping tslint@3.7.0-dev.2 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+187 verbose already installed skipping typings@^1.0.4 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+188 verbose already installed skipping app-root-path@^1.0.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+189 verbose already installed skipping autoprefixer@^6.3.3 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+190 verbose already installed skipping body-parser@^1.15.2 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+191 verbose already installed skipping browser-sync@~2.9.12 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+192 verbose already installed skipping browserify@^13.0.1 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+193 verbose already installed skipping browserify-istanbul@^2.0.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+194 verbose already installed skipping browserify-ng-html2js@^1.2.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+195 verbose already installed skipping browserify-shim@^3.8.12 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+196 verbose already installed skipping cookie-parser@^1.4.3 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+197 verbose already installed skipping del@^2.2.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+198 verbose already installed skipping eslint@^1.10.3 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+199 verbose already installed skipping eslint-plugin-backbone@^1.2.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+200 verbose already installed skipping express@^4.13.4 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+201 verbose already installed skipping gulp@^3.8.11 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+202 verbose already installed skipping gulp-connect@^4.1.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+203 verbose already installed skipping gulp-debug@^2.0.1 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+204 verbose already installed skipping gulp-eslint@^2.0.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+205 verbose already installed skipping gulp-hub@^0.7.1 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+206 verbose already installed skipping gulp-inject@^3.0.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+207 verbose already installed skipping gulp-plumber@^1.1.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+208 verbose already installed skipping gulp-sass@^2.2.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+209 verbose already installed skipping gulp-sourcemaps@^1.6.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+210 verbose already installed skipping gulp-util@^3.0.7 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+211 verbose already installed skipping istanbul@^0.4.3 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+212 verbose already installed skipping karma@^0.13.22 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+213 verbose already installed skipping karma-browserify@^5.0.5 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+214 verbose already installed skipping karma-coverage@^1.0.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+215 verbose already installed skipping karma-jasmine@^1.0.2 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+216 verbose already installed skipping karma-mocha-reporter@^2.0.4 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+217 verbose already installed skipping karma-phantomjs-launcher@^1.0.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+218 verbose already installed skipping merge-stream@^1.0.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+219 verbose already installed skipping mkdirp@^0.5.1 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+220 verbose already installed skipping morgan@^1.7.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+221 verbose already installed skipping phantomjs-prebuilt@^2.1.7 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+222 verbose already installed skipping run-sequence@^1.2.2 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+223 verbose already installed skipping serve-favicon@^2.3.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+224 verbose already installed skipping superstatic@^4.0.1 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+225 verbose already installed skipping vinyl-buffer@^1.0.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+226 verbose already installed skipping vinyl-source-stream@^1.1.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+227 verbose already installed skipping vinyl-transform@^1.0.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+228 verbose already installed skipping watchify@^3.7.0 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+229 verbose already installed skipping @angular/common@2.0.0-rc.1 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+230 verbose already installed skipping @angular/compiler@2.0.0-rc.1 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+231 verbose already installed skipping @angular/core@2.0.0-rc.1 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+232 verbose already installed skipping @angular/http@2.0.0-rc.1 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+233 verbose already installed skipping @angular/platform-browser@2.0.0-rc.1 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+234 verbose already installed skipping @angular/platform-browser-dynamic@2.0.0-rc.1 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+235 verbose already installed skipping @angular/router@2.0.0-rc.1 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+236 verbose already installed skipping @angular/router-deprecated@2.0.0-rc.1 /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+237 silly install resolved []
+238 info build /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+239 info linkStuff seed.angular@1.0.0
+240 silly linkStuff seed.angular@1.0.0 has /Users/kuman022/Documents/Developer/Projects.Git as its parent node_modules
+241 verbose linkBins seed.angular@1.0.0
+242 verbose linkMans seed.angular@1.0.0
+243 verbose rebuildBundles seed.angular@1.0.0
+244 verbose rebuildBundles [ '.bin',
+244 verbose rebuildBundles   '@angular',
+244 verbose rebuildBundles   'app-root-path',
+244 verbose rebuildBundles   'autoprefixer',
+244 verbose rebuildBundles   'body-parser',
+244 verbose rebuildBundles   'bootstrap',
+244 verbose rebuildBundles   'bootstrap-sass',
+244 verbose rebuildBundles   'browser-sync',
+244 verbose rebuildBundles   'browserify',
+244 verbose rebuildBundles   'browserify-istanbul',
+244 verbose rebuildBundles   'browserify-ng-html2js',
+244 verbose rebuildBundles   'browserify-shim',
+244 verbose rebuildBundles   'concurrently',
+244 verbose rebuildBundles   'cookie-parser',
+244 verbose rebuildBundles   'core-js',
+244 verbose rebuildBundles   'del',
+244 verbose rebuildBundles   'eslint',
+244 verbose rebuildBundles   'eslint-plugin-backbone',
+244 verbose rebuildBundles   'express',
+244 verbose rebuildBundles   'factor-bundle',
+244 verbose rebuildBundles   'gulp',
+244 verbose rebuildBundles   'gulp-connect',
+244 verbose rebuildBundles   'gulp-debug',
+244 verbose rebuildBundles   'gulp-eslint',
+244 verbose rebuildBundles   'gulp-hub',
+244 verbose rebuildBundles   'gulp-inject',
+244 verbose rebuildBundles   'gulp-plumber',
+244 verbose rebuildBundles   'gulp-sass',
+244 verbose rebuildBundles   'gulp-sourcemaps',
+244 verbose rebuildBundles   'gulp-util',
+244 verbose rebuildBundles   'hbs',
+244 verbose rebuildBundles   'istanbul',
+244 verbose rebuildBundles   'jasmine-core',
+244 verbose rebuildBundles   'karma',
+244 verbose rebuildBundles   'karma-browserify',
+244 verbose rebuildBundles   'karma-coverage',
+244 verbose rebuildBundles   'karma-jasmine',
+244 verbose rebuildBundles   'karma-mocha-reporter',
+244 verbose rebuildBundles   'karma-phantomjs-launcher',
+244 verbose rebuildBundles   'merge-stream',
+244 verbose rebuildBundles   'mkdirp',
+244 verbose rebuildBundles   'morgan',
+244 verbose rebuildBundles   'phantomjs-prebuilt',
+244 verbose rebuildBundles   'run-sequence',
+244 verbose rebuildBundles   'rxjs',
+244 verbose rebuildBundles   'serve-favicon',
+244 verbose rebuildBundles   'superstatic',
+244 verbose rebuildBundles   'ts-helpers',
+244 verbose rebuildBundles   'tsify',
+244 verbose rebuildBundles   'tslint',
+244 verbose rebuildBundles   'typescript',
+244 verbose rebuildBundles   'typings',
+244 verbose rebuildBundles   'underscore',
+244 verbose rebuildBundles   'vinyl-buffer',
+244 verbose rebuildBundles   'vinyl-source-stream',
+244 verbose rebuildBundles   'vinyl-transform',
+244 verbose rebuildBundles   'watchify',
+244 verbose rebuildBundles   'zone.js' ]
+245 verbose rebuild bundle /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/jasmine-core
+246 info build /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/jasmine-core
+247 info preinstall jasmine-core@2.4.1
+248 info linkStuff jasmine-core@2.4.1
+249 silly linkStuff jasmine-core@2.4.1 has /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules as its parent node_modules
+250 verbose linkBins jasmine-core@2.4.1
+251 verbose linkMans jasmine-core@2.4.1
+252 verbose rebuildBundles jasmine-core@2.4.1
+253 info install jasmine-core@2.4.1
+254 info postinstall jasmine-core@2.4.1
+255 verbose rebuild bundle /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/typescript
+256 info build /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/typescript
+257 info preinstall typescript@1.8.10
+258 info linkStuff typescript@1.8.10
+259 silly linkStuff typescript@1.8.10 has /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules as its parent node_modules
+260 verbose linkBins typescript@1.8.10
+261 verbose link bins [ { tsc: './bin/tsc', tsserver: './bin/tsserver' },
+261 verbose link bins   '/Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin',
+261 verbose link bins   false ]
+262 verbose linkMans typescript@1.8.10
+263 verbose rebuildBundles typescript@1.8.10
+264 silly gentlyRm /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/tsc is being purged
+265 verbose gentlyRm don't care about contents; nuking /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/tsc
+266 silly gentlyRm /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/tsserver is being purged
+267 verbose gentlyRm don't care about contents; nuking /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/tsserver
+268 silly vacuum-fs purging /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/tsc
+269 silly vacuum-fs purging /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin/tsserver
+270 silly vacuum-fs quitting because other entries in /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin
+271 silly vacuum-fs quitting because other entries in /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/node_modules/.bin
+272 info install typescript@1.8.10
+273 info postinstall typescript@1.8.10
+274 info install seed.angular@1.0.0
+275 info postinstall seed.angular@1.0.0
+276 verbose unsafe-perm in lifecycle true
+277 info prepublish seed.angular@1.0.0
+278 verbose validateInstall loading /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2/package.json for validation
+279 verbose stack Error: The package rxjs@5.0.0-beta.8 does not satisfy its siblings' peerDependencies requirements!
+279 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+279 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+279 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+279 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+279 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+279 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+279 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+279 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+279 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+279 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+280 verbose cwd /Users/kuman022/Documents/Developer/Projects.Git/seed.angular2
+281 error Darwin 15.5.0
+282 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i"
+283 error node v4.4.7
+284 error npm  v2.15.8
+285 error code EPEERINVALID
+286 error peerinvalid The package rxjs@5.0.0-beta.8 does not satisfy its siblings' peerDependencies requirements!
+286 error peerinvalid Peer @angular/core@2.0.0-rc.1 wants rxjs@5.0.0-beta.6
+286 error peerinvalid Peer @angular/http@2.0.0-rc.1 wants rxjs@5.0.0-beta.6
+287 verbose exit [ 1, true ]
