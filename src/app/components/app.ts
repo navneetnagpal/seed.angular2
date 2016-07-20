@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
-import { TodoList } from './todo-list/todo-list'; 
-import { TodoItem } from './todo-list/todo-item'; 
+import { TodoList } from './todo-list/todo-list';
+import { AddTodoComponent } from './todo-list/add-todo.component';
+import { TodoItem } from './todo-list/todo-item';
 @Component({
   selector: 'app',
-  
-  directives: [TodoList],
+
+  directives: [AddTodoComponent,TodoList],
   template: `
    <div class="container">
       <div class="header clearfix">
@@ -26,11 +27,11 @@ import { TodoItem } from './todo-list/todo-item';
 
       <div class="row marketing">
         <div class="col-lg-6">
-        
+            <add-todo (add)="addClicked($event)"> </add-todo>
         </div>
 
         <div class="col-lg-6">
-            <todo-list [todo]="hero" ></todo-list>
+            <todo-list [list]="todos" ></todo-list>
         </div>
       </div>
 
@@ -43,9 +44,17 @@ import { TodoItem } from './todo-list/todo-item';
   
   `
 })
-export class AppComponent { 
-     title = 'Tour of Heroes';
-    hero :TodoItem = {
-      id:2,
-      name:'Windstorm'};
+export class AppComponent {
+  title = 'Tour of Heroes';
+  todos: TodoItem[] = new Array();
+
+  setHero(items: TodoItem[]) {
+    this.todos = items;
+    return this;
+  }
+
+  addClicked(item:TodoItem){
+    console.log(item);
+    this.todos.push(item);
+  }
 }
