@@ -27,6 +27,9 @@ var buffer = require('vinyl-buffer');
 var source = require('vinyl-source-stream');
 var mkdirp = require('mkdirp');
 var Config = require('./gulpfile.config');
+var gutil = require("gulp-util");
+var webpack = require("webpack");
+var sharedWebpackConfig = require('./webpack.config');
 var _config = new Config();
 var PATHS = {
     dest: _config.dist, 
@@ -71,7 +74,7 @@ gulp.task('styles', function() {
 });
  
 
-gulp.task('build', ['styles']);
+gulp.task('build', ['styles','webpack']);
  
 
 gulp.task('build:all', function() {
@@ -81,21 +84,19 @@ gulp.task('build:all', function() {
 
 
 gulp.task('build:all:dev', function(cb) {
-    return runSequence('clean', ['styles'],  'test', cb);
+    return runSequence('clean', ['build'],  'test', cb);
 });
 
-
-/*
-/// for getting simple http server
-var connect = require('gulp-connect');
-gulp.task('static-connect', function () {
-    connect.server({
-        root: 'dist',
-        livereload: true
+gulp.task("webpack", function(callback) {
+    // run webpack
+    webpack(_.extend({},sharedWebpackConfig,{watch:false}), function(err, stats) {
+        if(err) throw new gutil.PluginError("webpack", err);
+        gutil.log("[webpack]", stats.toString({
+            // output options
+        }));
+        callback();
     });
 });
-
-gulp.task('serve',['static-connect'])*/
 
 gulp.task('default', ['build:all']);
  
